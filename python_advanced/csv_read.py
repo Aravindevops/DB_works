@@ -1,0 +1,6 @@
+import csv
+f=open("data.csv",'r')
+reader=csv.reader(f)
+for i in reader:
+    print(i)
+f.close()

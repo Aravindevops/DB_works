@@ -1,0 +1,11 @@
+f=open("file.txt",'w')
+f.write("hello world\n")
+f.write("boom\n")
+f.writelines(["hello\n"," my name is aravind\n", "I am a python developer\n","blah blah blah\n"])
+f.close()
+
+f=open("file.txt",'r')
+s=f.read()
+print(s)
+print(type(s))
+f.close()

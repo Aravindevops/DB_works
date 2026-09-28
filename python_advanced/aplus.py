@@ -1,0 +1,7 @@
+f=open("file.txt",'a+')
+print(f.tell())
+f.write("big bang theory")
+f.seek(0)
+print(f.read())
+print(f.tell())
+f.close()
